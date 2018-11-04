@@ -1,0 +1,898 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600,700');
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 600;
+}
+
+.container{
+	max-width: 1400px;
+}
+p{
+	color: #7b7b7b;
+}
+
+.header-logo a {
+  display: block;
+}
+.header-logo a img {
+  max-width: 170px;
+  margin: 20px 0;
+}
+.template-responsive-wrap{
+	display: none;
+}
+.slicknav_menu {
+	background: none;
+}
+.slicknav_nav {
+	background: #06222B;
+}
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+	padding: 5px 10px;
+	margin: 0px;
+}
+.slicknav_btn {
+	margin-bottom: 0px;
+}
+.slicknav_nav a:hover {
+	border-radius: 0px;
+	background: #E5781D;
+	color: #fff;
+}
+.mainmenu{
+  float: right;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float:right;
+}
+.mainmenu ul li {
+  display: inline-block;
+  margin: 31px 0;
+  float: left;
+}
+.mainmenu ul li a {
+  display: inline-block;
+  color: #000;
+  padding: 10px 15px;
+  transition: .3s;
+}
+.header-top-area {
+  border-bottom: 1px solid #d6d6d6;
+}
+.mainmenu ul li a:hover , .mainmenu ul li a.active {
+  background: #e67a1f;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header-bottom-area {
+	background: #f8f8f8;
+}
+
+.single-contact-box {
+  display: table;
+  width: 100%;
+  height: 105px;
+}
+.single-contact-box-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contact-box-icon {
+  display: table;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border: 1px solid #e5e5e5;;
+  font-size: 30px;
+  color: #e77a1b;
+  border-radius: 5px;
+}
+.contact-box-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.single-contact-box p {
+	padding-left: 81px;
+	color: #202020;
+	margin-bottom: 0;
+}
+.slider-bg{background-image:url(../img/slider-bg.jpg)}
+.about-bg{background-image: url(../img/about-img.jpg);}
+.homepage-slder-area {
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  display: table;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+
+.slider-inner-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.homepage-slder-area:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #000;
+  opacity: .54;
+  z-index: -1;
+}
+
+.slider-text {
+  text-align: center;
+  color: #fff;
+}
+
+.slider-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.slider-text h3 {
+  font-size: 30px;
+  font-weight: 400; 
+  margin-bottom: 70px;	
+}
+
+.slider-btn {
+  display: inline-block;
+  background: #e67a1f;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: .3s;
+}
+.slider-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.slider-btn i.fa {
+  margin-right: 10px;
+}
+
+
+.slider-cta {
+  background: #07232c;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  bottom: 0;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.slider-cta span {
+  position: absolute;
+  background: #07232C;
+  display: inline-block;
+  bottom: 44%;
+  height: 65px;
+  width: 65px;
+  right: 50%;
+  margin-right: -32.5px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.slider-cta span::before {
+  position: absolute;
+  left: 50%;
+  bottom: 34%;
+  width: 20px;
+  content: "";
+  height: 30px;
+  margin-left: -10px;
+  background-image: url(../img/phone-icon.png);
+}
+
+.about-area-bg {
+	background-image: url(../img/about-area-bg.jpg);
+	position: absolute;
+	right: 0;
+	width: 55%;
+	height: 80%;
+	top: 10%;
+	border-radius: 5px 0px 0px 5px;
+	z-index: 1;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+}
+
+.right-bottom-bg {
+	position: absolute;
+	right: 0;
+	width: 52%;
+	height: 83%;
+	top: 10%;
+	content: "";
+	background: #e67a1f;
+	border-radius: 0px 0px 0px 5px;
+}
+.about-area {
+  position: relative;
+  z-index: 1;	
+}
+.about-text {
+	text-align: center;
+	padding: 100px 50px;
+}
+
+.about-text h2 {
+	margin-bottom: 30px;
+}
+.collpase-bg{background-image: url(../img/collapse-bg.png)}
+.teeatment-collapse-area {
+	position: relative;
+	z-index: 1;
+	min-height: 737px;
+}
+.collpase-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 737px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.treatment-accordian-text {
+	padding: 80px 60px;
+	padding-bottom: 0;
+}
+.treatment-accordian-text h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.treatment-accordian-text p {
+  margin-bottom: 24px;
+}
+
+.card-header {
+	padding: 0;
+	border: 1px solid #969696;
+	width: 576px;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+.card-header h5 span {
+	position: absolute;
+	display: inline-block;
+	height: 43px;
+	width: 50px;
+	text-align: center;
+	line-height: 42px;
+	background: #06222b;
+	color: #fff;
+	top: 0;
+}
+.collapse-section .card .card-header h5 button {
+	position: relative;
+	z-index: 1;
+}
+.collapse-section .card .card-header h5 button i.fa {
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 50px;
+	height: 43px;
+	line-height: 45px;
+	font-size: 30px;
+	background: #06222B;
+	color: #fff;
+	z-index: 2;
+}
+[data-toggle="collapse"] .fa:before {  
+  content: "\f106";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f107";
+}
+.card {
+	margin-bottom: 10px;
+}
+.btn-link {
+  color: #7b7b7b;
+}
+.btn {
+	padding: 20px;
+	padding-left: 70px;
+	font-size: 20px;
+	line-height: 0;
+	display: block;
+}
+.btn-link:hover {
+	color: #7b7b7b;
+	text-decoration: none;
+}
+.card-body {
+	color: #7b7b7b;
+}
+.card {
+	border: none;
+}
+.boxed-btn {
+	display: inline-block;
+	background: #e67a1f;
+	color: #fff;
+	padding: 15px 40px;
+	border-radius: 8px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.cta-area-bg {
+	background-image: url(../img/cta-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	z-index: 1;
+}
+.cta-area-text p {
+  font-size: 30px;
+  text-align: right;
+  color: #fff;	
+}
+.cta-area {
+	position: relative;
+	z-index: 1;
+	height: 200px;
+	padding: 64px 0;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.cta-area-text {
+	position: relative;
+	z-index: 1;
+}
+.cta-area-text::before {
+	position: absolute;
+	left: -495%;
+	top: 0;
+	width: 500%;
+	height: 100%;
+	content: "";
+	background: #06222B;
+	transform: skew(-15deg);
+}
+.cta-area-boxed-btn {
+	display: inline-block;
+	background: #06222B;
+	color: #fff;
+	padding: 22px 20px;
+	transform: skew(-15deg);
+	position: relative;
+	z-index: 1;
+}
+.cta-area-boxed-btn::before {
+	position: absolute;
+	right: -5000%;
+	top: 0;
+	width: 5000%;
+	height: 100%;
+	content: "";
+	background: #06222B;
+}
+.cta-area-boxed-btn i {
+	margin-right: 10px;
+}
+
+.cta-area-text p {
+  padding: 10px 0;
+}
+.treatment-area-bg{background-image: url(../img/treatment-area-bg.jpg)}
+.treatment-area {
+  position: relative;
+  z-index: 1;
+}
+.treatment-area-bg {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  content: "";
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+}
+.treatment-details-area {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 115px 0;
+}
+.treatment-details-area::after {
+	position: absolute;
+	top: 0;
+	right: -118px;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #fff;
+	z-index: -1;
+	transform: skew(-15deg);
+}
+
+.footer-area-top {
+  background: #07232c;
+  color: #fff;
+  padding-top: 80px;
+	
+}
+.footer-heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.footer-area-top p {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.footer-area-top ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-area-top ul li a {
+  color: #fff;
+}
+.my_style {
+  width: 100%;
+  background: #243640;
+  border: none;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+textarea {
+	width: 100%;
+	height: 100px;
+	background: #243640;
+	border: none;
+	border-radius: 5px;
+	border: #fff;
+	margin-bottom: 10px;
+	resize: none;
+	color: #fff;
+	padding: 15px 20px;
+}
+.submit-btn {
+  background: #E67A1F;
+  border: none;
+  color: #fff;
+  padding: 15px 20px;
+  float: right;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.footer-bottom-area {
+	background: #07232C;
+	padding: 30px 0;
+	font-weight: 14px;
+}
+.footer-bottom-area p {
+	margin: 0;
+}
+/****************** site-featured-areae css start *****************/
+.site-featured-area-bg{
+	background-image: url(../img/featured-bg.jpg);
+
+}
+.site-featured-area {
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.site-featured-area-text, .site-featured-area-text a {
+  color: #fff;
+}
+.site-featured-area-text h1 {
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+.site-featured-area-text a {
+  font-size: 30px;
+}
+.site-featured-area-text i.fa {
+  font-size: 30px;
+  margin: 15px
+  
+}
+.about-service {
+	padding: 60px 0;
+}
+.first-bg{background-image:url(../img/first-bg.jpg)}
+.others-bg-2{background-image: url(../img/others-bg-2.jpg);}
+.others-bg-3{background-image: url(../img/others-bg-3.jpg);}
+
+.first-service-section {
+	height: 620px;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+}
+.others-service-section {
+	height: 305px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+.about-service-text {
+	padding-left: 70px;
+	padding-top: 30px;
+}
+.about-service-text h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 6000;
+}
+
+.ceo-area {
+  padding: 80px 0;
+}
+.ceo-speech a {
+	display: inline-block;
+	color: #e67a1f;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+.ceo-speech {
+	padding: 60px 0;
+}
+.ceo-speech h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.ceo-bg{background-image: url(../img/ceo.jpg);}
+
+.ceo-image {
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+}
+.ceo-image p {
+  position: absolute;
+  bottom: -26px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  background: #07232c;
+  padding: 20px;
+  height: 60px;
+  width: 250px;
+  left: 50%;
+  margin-left: -125px;
+}
+.about-page-bg {
+  height: 610px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  display: table;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+.about-inner-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.about-page-bg:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #000;
+  opacity: .54;
+  z-index: -1;
+}
+.about-page-text {
+	color: #fff;
+	max-width: 540px;
+	text-align: center;
+	margin: auto;
+}
+.about-page-text span i.fa {
+	display: block;
+	margin-bottom: 40px;
+	color: #e67a1f;
+	font-size: 30px;
+}
+
+.about-page-text h2 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.about-page-text p {
+	color: #fff;
+	margin-bottom: 25px;
+}
+.about-page-text h4 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+.site-cta {
+  background: #e67a1f;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  bottom: 0;
+  font-weight: 600;
+  z-index: 1;
+}
+.site-cta span {
+  position: absolute;
+  background: #e67a1f;
+  display: inline-block;
+  bottom: 44%;
+  height: 65px;
+  width: 65px;
+  right: 50%;
+  margin-right: -32.5px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.site-cta span::before {
+  position: absolute;
+  left: 50%;
+  bottom: 34%;
+  width: 20px;
+  content: "";
+  height: 30px;
+  margin-left: -10px;
+  background-image: url(../img/phone-icon.png);
+}
+
+/*******************Physical-therapy area css start*************************/
+.physical-therapy-area-bg{background-image: url(../img/physical-therapy-area-bg.jpg);}
+.physical-therapy-area-bg-2{background-image: url(../img/physical-therapy-area-bg-2.jpg);}
+
+.physical-therapy-area {
+  position: relative;
+  z-index: 1;
+}
+.physical-therapy-area-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.therapy-text {
+  padding: 80px 0;
+}
+.therapy-text h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.physical-therapy-area-left {
+  position: relative;
+  z-index: 1;
+}
+.site-btn {
+	margin-bottom: 60px;
+}
+.physical-therapy-area-bg-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.therapy-text p {
+  padding-right: 100px;
+}
+.physical-therapy-area-left p{
+	padding-right: 0;
+}
+.margin-bottom-100 {
+	margin-bottom: 100px;
+}
+
+/***********************medicine page css start***********************/
+.faq-bg{background-image: url(../img/faq-bg.jpg);}
+
+.faq-area {
+  position: relative;
+  z-index: 1;
+}
+.faq-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-position: left top;
+}
+.faq-text {
+	padding: 80px 0;
+	padding-left: 40px;
+}
+.faq-text p {
+	margin-bottom: 30px;
+}
+.medicine-alt-bg{background-image: url(../img/medicine-alt-bg.jpg);}
+.medicine-alt-bg-2{background-image: url(../img/medicine-alt-bg-2.jpg);}
+
+.full-medicine-area {
+	padding: 50px 0;
+}
+.medicine-alternative-area {
+  position: relative;
+  z-index: 1;
+}
+.medicine-alt-text {
+	padding: 80px 0;
+	padding-right: 50px;
+}
+.medicine-alt-bg {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+}
+.medicine-alternative-area-left {
+  position: relative;
+  z-index: 1;
+}
+.medicine-alt-bg-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.medicine-alt-text h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.medicine-alternative-area-left .medicine-alt-text{
+	padding-right: 0;
+}
+
+.our-service-area {
+	background: #f8f8f8;
+	padding: 80px 0;
+	position: relative;
+	z-index: 1;
+}
+.section-title h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.single-our-service-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.single-our-service-item img {
+  margin-bottom: 25px;
+}
+.single-our-service-item h4 {
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+.service-btn {
+	margin: auto;
+	background: #07232C;
+	margin-bottom: 60px;
+}
+
+
+/**********************contact page css start*************************/
+
+.site-contact-area {
+  padding: 110px 0;
+}
+.contact-area-title {
+  text-align: center;
+}
+.contact-area-title h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact-area-title p {
+  margin-bottom: 40px;
+}
+.my_contact {
+  width: 49%;
+  background: #f5f5f5;
+  border: none;
+  padding: 20px 15px;
+  margin-right: 11px;
+  margin-bottom: 20px;
+  color: #7b7b7b;
+}
+.phone {
+  margin-right: 0;
+}
+.contact-message {
+  border-radius: 0;
+  color: #7b7b7b;
+  background: #f5f5f5;
+  height: 170px;
+  margin-bottom: 20px;
+}
+.form-site-btn {
+	display: inline-block;
+	background: #e67a1f;
+	border: none;
+	color: #fff;
+	width: 46%;
+	padding: 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.contact-right-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact-right-section {
+  text-align: center;
+  max-width: 232px;
+  margin: auto;
+  padding-top: 141px;
+}
+.site-map-section{
+	position: relative;
+	z-index: 1;
+}
+
