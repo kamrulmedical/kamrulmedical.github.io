@@ -1,6 +1,7 @@
 /* ==== Medium Device, Desktop ==== */
 @media only screen and (max-width:1200px){
 
+
 }
 
 /* ==== Small Device, Tablet ==== */
@@ -11,14 +12,14 @@
 .product-bg {
 	height: 346px;
 }
-.product-bottom-border::after {
+.single-product-box::after {
 	left: 35%;
 	width: 30%;
 }
-.product-bottom-border {
+.single-product-box {
 	padding-bottom: 25px;
 }
-.product-bottoma {
+.product-bottom {
 	padding-top: 43px;
 	padding-bottom: 65px;
 }
@@ -99,6 +100,12 @@
 .header-area-top {
 	background: #fff;
 	margin-top: 0px;
+}
+.product-bg {
+	height: 250px;
+}
+.product-details {
+	padding-bottom: 0px;
 }
 /*.header {
 	position: relative !important;
