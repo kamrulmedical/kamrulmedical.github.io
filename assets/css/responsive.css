@@ -1,738 +1,192 @@
-/*Extra Large device ( Desktop )*/
-@media ( max-width: 1399px ){
-.only-for-mobile {
-	display: none;
-}
-}
-/*Large device ( Desktop )*/
-@media ( max-width: 1199px ){
-.about-text {
-	padding: 100px 10px;
-}	
-.about-text h2 {
-	margin-bottom: 20px;
-}	
-.single-contact-box p {
-	font-size: 14px;
-}	
-.single-contact-box {
-	height: 0;
-	padding: 20px 0;
-}	
-.teeatment-collapse-area {
-	min-height: 697px;
-}	
-.collpase-bg {
-	height: 697px;
-	background-position: left;
-}	
-.treatment-accordian-text {
-	padding: 80px 0px;
-}	
-.collapse-section .card .card-header h5 button::after {
-	top: -2px;
-	height: 45px;
-}
-.card-header {
-	width: 465px;
-}	
-.btn {
-	padding: 18px;
-	padding-left: 55px;
-	font-size: 16px;
-}
-.collapse-section .card .card-header h5 button i.fa {
-	left: -2px;
-	top: -2px;
-	width: 50px;
-	height: 40px;
-}	
-.cta-area-text p {
-	font-size: 22px;
-}	
-.cta-area-boxed-btn {
-	padding: 3px 10px;
-	font-size: 15px;
-}	
-.treatment-details-area {                                                                       
-	padding: 80px 0;
-}	
+/* ==== Medium Device, Desktop ==== */
+@media only screen and (max-width:1200px){
 
-/************About Page Responsive Start *****************/
-.ceo-image p {
-	width: 202px;
-	margin-left: -100px;
-}	
-.only-for-mobile {
-	display: none;
-}
-	
-	
 }
 
-/*Medium device ( Tablets )*/
-@media ( max-width: 991px ){
-.header-logo a img {
-	max-width: 130px;
-	margin: 10px 0;
-}	
-.mainmenu ul li {
-	margin: 20px 0;
-}	
-.mainmenu ul li a {
-	padding: 10px 7px;
-}	
-.single-contact-box {
-	height: 0;
-	padding: 15px 0;
-}	
-.homepage-slder-area {
-	height: 450px;
-}
-.slider-text h1 {
-	font-size: 40px;
-}	
-.slider-text h3 {
-	font-size: 25px;
-	margin-bottom: 50px;
-}	
-.slider-btn {
-	padding: 13px;
-}	
-.slider-cta {
-	height: 40px;
-	font-size: 24px;
-}	
-.cta-area {
-	height: 138px;
-	padding: 40px 0;
-}
-.slider-cta span {
-	bottom: 29%;
-}	
-.slider-cta span::before {
-	bottom: 38%;
-}	
-.about-text {
-	padding: 50px 0;
-}
-.about-area-bg {
-	width: 50%;
-}
-.right-bottom-bg {
-	width: 47%;
-}	
-.about-text h2 {
-	margin-bottom: 10px;
-	font-size: 25px;
-}
-.treatment-accordian-text {
-	padding: 40px 0;
-}
-.treatment-accordian-text h2 {
-	font-size: 25px;
-	margin-bottom: 0px;
-}	
-.treatment-accordian-text p {
-	margin-bottom: 10px;
-	color: #222;
-}
-.card {
-	width: 650px;
-	margin-bottom: 5px;
-}
-.card-header {
-	width: 650px;
-}
-.btn {
-	width: 650px;
-	padding-left: 0;
-}
-.teeatment-collapse-area {
-	min-height: 523px;
-}
-.collpase-bg {
-	height: 525px;
-}	
-.boxed-btn {
-	padding: 10px 40px;
-}	
-.cta-area-text::before {
-	height: 120%;
-}	
-.cta-area-text p {
-	font-size: 17px;
-}	
-.treatment-details-area {
-	padding: 50px 0;
-}
-.treatment-details-area h2 {
-	font-size: 25px;
-	margin-bottom: 10px;
-}	
-.footer-heading {
-	font-size: 25px;
-	margin-bottom: 10px;
-}
-.footer-area-top {
-	padding-top: 30px;
-}	
-.treatment-details-area::after {
-	right: -43px;
-}	
-.my_style {
-	padding: 8px 20px;
-}	
-textarea {
-	height: 100px;
-	padding: 8px 20px;
-}	
-.submit-btn {
-	padding: 8px 20px;
-}
-.footer-bottom-area {
-	padding: 20px 0;
-}	
-/************About Page Responsive Start *****************/	
-.about-service {
-	padding: 40px 0;
-}
-.about-service-text {
-	padding-left: 20px;
+/* ==== Small Device, Tablet ==== */
+@media only screen and (max-width:991px){
+.product-text {
 	padding-top: 0px;
 }
-.about-service-text h2 {
-	font-size: 25px;
-	margin-bottom: 20px;
-}	
-.ceo-area {
-	padding: 40px 0;
+.product-bg {
+	height: 346px;
 }
-.ceo-speech {
-	padding: 40px 0;
-}	
-.ceo-speech h2 {
-	font-size: 25px;
-	margin-bottom: 15px;
-}	
-.ceo-speech a {
-	margin-top: 5px;
-}	
-.about-page-bg {
-	height: 450px;
-}	
-.about-page-text span i.fa {
-	margin-bottom: 10px;
-}	
-.about-page-text h2 {
-	margin-bottom: 10px;
+.product-bottom-border::after {
+	left: 35%;
+	width: 30%;
 }
-.about-page-text p {
-	margin-bottom: 15px;
-}	
-.site-cta {
-	height: 40px;
-	font-size: 24px;
-}	
-.site-cta span::before {
-	bottom: 35%;
+.product-bottom-border {
+	padding-bottom: 25px;
 }
-.site-cta span {
-	bottom: 28%;
-}	
-.site-featured-area {
-	padding-top: 40px;
-	padding-bottom: 20px;
-}	
-.site-featured-area-text h1 {
-	font-size: 40px;
-	margin-bottom: 30px;
-}	
-.site-featured-area-text a {
-	font-size: 25px;
-}		
-.site-featured-area-text i.fa {
-	font-size: 23px;
-	margin: 15px;
-}	
-.ceo-area.only-for-mobile {
-	display: none;
-}		
-/************* Medicine Page Responsive start **********************/
-.faq-text {
-	padding: 40px 0;
-	padding-left: 0px;
-	color: #fff;
-}	
-.faq-text p {
-	margin-bottom: 20px;
-	color: #fff;
-}	
-.faq-text h2 {
-	font-size: 25px;
+.product-bottoma {
+	padding-top: 43px;
+	padding-bottom: 65px;
 }
-.medicine-alt-text {
-	padding: 20px 0;
+.section-title {
+	margin-top: 22px;
+	margin-bottom: 11px;
+}
+.product-bottom-text {
+	padding-top: 25px;
 	padding-right: 0px;
+	text-align: center;
 }
-.medicine-alt-text h2 {
-	font-size: 25px;
-	margin-bottom: 15px;
-}	
-.full-medicine-area {
-	padding: 40px 0;
-}
-.our-service-area {
-	padding: 40px 0;
-}
-.section-title h2 {
-	font-size: 25px;
-	margin-bottom: 30px;
-}
-
-.single-our-service-item h4 {
-	margin-bottom: 5px;
-	font-size: 20px;
-}
-.single-our-service-item img {
-	margin-bottom: 15px;
-	width: 25%;
-}
-/**************Physical Therapy Responsive start******************/
-.therapy-text {
-	padding: 40px 0;
-}	
-.therapy-text h2 {
-	font-size: 25px;
-	margin-bottom: 20px;
-}	
-.therapy-text p {
-	padding-right: 20px;
-}
-.site-btn {
-	margin-bottom: 20px;
-}	
-/*************** *Contact Responsive Start *************/
-.site-contact-area {
-	padding: 40px 0;
-}	
-.contact-area-title p {
-	margin-bottom: 20px;
-}	
-.contact-area-title h2 {
-	font-size: 25px;
-	margin-bottom: 15px;
-}
-.my_contact {
-	margin-bottom: 15px;
-}
-.contact-right-section {
-	padding-top: 40px;
-}
-.contact-right-section h2 {
-	font-size: 25px;
-	margin-bottom: 15px;
-}	
-
-}
-
-/*Small device ( Landscape Phone )*/
-@media (max-width: 767px){
-.mainmenu {
-	display: none;
-}	
-	
-.single-contact-box p {
-	font-size: 12px;
-}	
-.header-logo a img {
-	max-width: 120px;
-}	
-.homepage-slder-area {
-	height: 340px;
-}	
-.slider-text h1 {
-	font-size: 35px;
-	margin-bottom: 5px;
-}	
-.slider-text h3 {
-	font-size: 20px;
-	margin-bottom: 20px;
-}
-.slider-btn {
-	padding: 10px;
-	font-size: 15px;
-}	
-.slider-cta {
-	font-size: 20px;
-	padding-top: 4px;
-}
-.slider-cta span {
-	bottom: 11%;
-}
-.slider-cta span::before {
-	bottom: 43%;
-}
-.about-text {
-	text-align: left;
-}
-.card {
-	width: 523px;
-}
-.card-header {
-	width: 523px;
-}
-.btn {
-	width: 523px;
-	padding: 15px;
-	padding-left: 15px;
-}
-.treatment-area-bg {
-	display: none;
-}
-.treatment-details-area::after {
-	display: none;
-}
-.treatment-accordian-text {
-	padding: 40px 0;
-}
-.collapse-section .card .card-header h5 button i.fa {
-	height: 34px;
-}
-.collapse-section .card .card-header h5 button i.fa {
-	line-height: 37px;
-}
-.card-body {
-	padding: 10px;
-}
-.cta-area-text p {
-	padding: 0px;
-}
-.cta-area-boxed-btn {
-	padding: 21px 10px;
-}	
-.cta-area {
-	padding: 35px 0;
-}	
-	
-/************About Page Responsive Start *****************/		
-.site-featured-area {
-	padding-top: 20px;
-	padding-bottom: 10px;
-	margin-top: 10px;
-}	
-.site-featured-area-text h1 {
-	font-size: 35px;
+.product-bottom-text h4 {
 	margin-bottom: 5px;
 }
-.site-featured-area-text a {
-	font-size: 20px;
-}	
-.site-featured-area-text i.fa {
-	font-size: 20px;
-}	
-.about-service-text {
-	padding-left: 0px;
-	padding-top: 10px;
-}	
-.about-service-text h2 {
-	margin-bottom: 5px;
-}
-.about-service-text p {
-	margin-bottom: 0px;
-}	
-.ceo-speech {
-	padding: 0px;
-}
-.ceo-intro {
-	margin-top: 50px;
-}	
-.ceo-image p {
-	width: 195px;
-	margin-left: -98px;
-}	
-.ceo-speech h2 {
-	margin-bottom: 10px;
-}	
-.ceo-speech p {
-	margin-bottom: 0px;
-}	
-.ceo-speech a {
-	font-size: 16px;
-}	
-.site-cta {
-	font-size: 20px;
-	padding-top: 4px;
-}
-.site-cta span::before {
-	bottom: 30%;
-}	
-.site-cta span {
-	bottom: 25%;
-}	
-.ceo-area.only-for-mobile {
-	display: none;
-}	
-/************** Medicine Page Responsive start ********************/
-.single-our-service-item img {
-	width: 20%;
-}	
-.medicine-alt-bg {
-	width: 50%;
-}	
-.medicine-alt-bg-2 {
-	width: 50%;
-}	
-/************** Physicial Therapy Responsive Start *******************/
-.therapy-text h2 {
-	font-size: 25px;
-	margin-bottom: 10px;
-}
-/*************** *Contact Responsive Start *************/
-.site-contact-area {
-	padding: 40px 0;
-}	
-.contact-right-section {
-	padding-top: 30px;
-}	
-.my_contact {
-	width: 48%;
-	padding: 15px 15px;
-	margin-bottom: 10px;
-}
-.contact-message {
-	height: 150px;
-	margin-bottom: 10px;
-}	
-.form-site-btn {
-	padding: 14px;
-}	
-	
-}
-
-/*Extra Small device ( Portrait phones )*/
-@media ( max-width: 575px ){
-.template-responsive-wrap {
-	display: block;
-	position: absolute;
-	top: 11px;
-	right: 0;
-	z-index: 2;
-}
-.mainmenu {
-	display: none;
-}	
-.contact-box-icon {
-	width: 0px;
-	height: 0px;
-	font-size: 20px;
-	border: none;
-}
-.single-contact-box p {
-	padding-left: 30px;
-}	
-.single-contact-box {
-	height: 0;
-	padding: 5px;
-}	
-.slider-text h1 {
-	font-size: 30px;
-}	
-.slider-text h3 {
-	font-size: 16px;
-	margin-bottom: 20px;
-}	
-.slider-btn {
-	padding: 8px;
-	font-size: 12px;
-}	
-.slider-cta {
-	font-size: 18px;
-}	
-.slider-cta {
-	font-size: 16px;
-	padding-top: 7px;
-}	
-.slider-cta span::before {
-	bottom: 40%;
-}	
-.slider-cta span {
-	bottom: 8%;
-}	
-.about-area-bg {
-	display: none;
-}	
-.right-bottom-bg {
-	display: none;
-}	
-.about-text {
-	padding: 30px 0;
-}
-.about-text p {
-	margin-bottom: 0;
-}
-.card {
-	width: 304px;
-}	
-.card-header {
-	width: 304px;
-}		
-.collapse-section .card .card-header h5 button i.fa {
-	width: 25px;
-	font-size: 18px;
-}
-.treatment-accordian-text {
-	padding: 30px 0;
-}
-.btn {
-	width: 304px;
-	padding-left: 32px;
-	font-size: 11px;
-}
-.card-body {
-	padding: 2px;
-	font-size: 11px;
-}	
-.boxed-btn {
-	padding: 5px 20px;
-	font-size: 16px;
-}	
-.cta-area-boxed-btn {
-	margin-top: 8px;
-	font-size: 12px;
-}
-.cta-area-text p {
-	font-size: 12px;
-	padding: 0px;
-}	
-.cta-area-boxed-btn::before {
-	display: none;
-}
-.cta-area-text::before {
-	display: none;
-}
-.footer-area-top p {
-	margin-bottom: 0px;
-}		
-/************About Page Responsive Start *****************/	
-.site-featured-area-text h1 {
-	font-size: 30px;
-	margin-bottom: 0px;
-}	
-.site-featured-area-text a {
-	font-size: 18px;
-}	
-.site-featured-area-text i.fa {
-	font-size: 16px;
-}
-.about-service {
-	padding: 30px 0;
-}	
-.first-service-section {
-	height:400px;
-	margin-bottom: 10px;
-}	
-.about-service-text {
-	padding-top: 0px;
-}
-.ceo-area.only-for-desktop {
-	display: none;
-}	
-.ceo-intro {
-	margin-top: 0px;
-}	
-.ceo-area {
-	padding: 30px 0;
-}	
-.ceo-intro {
-	margin-top: 0px;
-	margin-bottom: 30px;
-}	
-.ceo-image {
-	height: 300px;
-}	
-.about-page-text h2 {
-	font-size: 25px;
-}	
-.about-page-text span i.fa {
-	margin-bottom: 5px;
-	margin-top: 15px;
-}
-.site-cta {
-	height: 35px;
-	font-size: 20px;
-}	
-.site-cta span {
-	bottom: 4%;
-}	
-.site-cta span::before {
-	bottom: 39%;
-}	
-/************** Medicine Page Responsive start ********************/
-.faq-text {
-	padding: 30px 0;
-}	
-.boxed-btn {
-	margin-top: 0px;
-	padding: 5px 15px;
-}	
-.medicine-alt-bg {
-	display: none;
-}	
-.medicine-alt-bg-2 {
-	display: none;
-}	
-.medicine-alt-text {
-	padding: 0px;
-}	
-.site-btn {
-	margin-bottom: 15px;
-}	
-.full-medicine-area {
-	padding: 30px 0;
-}	
-.our-service-area {
-	padding: 30px 0;
-}	
-.single-our-service-item img {
-	margin-bottom: 15px;
-	width: 20%;
-}	
-.section-title h2 {
-	font-size: 25px;
-	margin-bottom: 20px;
-}	
-.single-our-service-item h4 {
-	font-size: 18px;
-}	
-/*************** Physical Therapy Responsive Start	*************************/
-.physical-therapy-area-bg {
-	width: 100%;
-}	
-.therapy-text {
-	padding: 20px 0;
-}	
-/*************** *Contact Responsive Start *************/
-.site-contact-area {
-	padding: 20px 0;
-}	
-.contact-area-title h2 {
-	margin-bottom: 10px;
-}	
-.contact-area-title p {
-	margin-bottom: 15px;
-}	
-.my_contact {
-	width: 100%;
-	padding: 10px 15px;
-}	
-.contact-message {
+.product-bottoom-bg {
 	height: 120px;
 }
-.form-site-btn {
-	width: 58%;
-	padding: 11px;
-}	
-	
-	
+.dfor-desktop{
+	display: none;
 }
+.dfor-mobile{display: block;}
+.featured-product {
+	padding: 0;
+	padding-bottom: 20px;
+}
+.single-feature-item {
+	margin-bottom: 10px;
+}
+.single-feature-item p {
+	margin-top: 15px;
+}
+.featured-product h2 {
+	padding-bottom: 65px;
+}
+.footer-title {
+	margin-top: 30px;
+}
+.footer-area {
+	padding-top: 0px;
+}
+
+
+
+}
+
+
+/* ==== Extra Small Device, Mobile ==== */
+@media only screen and (max-width:767px){
+.footer-area {
+	text-align: center;
+}
+.footer-area img {
+	width: 100%;
+	height: 120px;
+}
+.fixed-top {
+	position: relative;
+}
+.header-area {
+	position: relative;
+}
+.single-slider-item::after {
+	width: 200px;
+	height: 200px;
+	margin-left: -100px;
+}
+.single-slider-item {
+	height: 300px;
+}
+.mainmenu {
+	display: none;
+}
+.single-slider-item::after {
+	bottom: 50%;
+	margin-bottom: -100px;
+}
+.header-area-top {
+	background: #fff;
+	margin-top: 0px;
+}
+/*.header {
+	position: relative !important;
+	background: #fff !important;
+	margin: 0px !important;;
+	padding: 0px !important;
+}
+.navbar-brand > img {
+	display: inline-block !important;
+	margin-left: -78px;
+}*/
+.navbar {
+	position: relative !important;
+	margin-top: 0px;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #ddd !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #888 !important;
+}
+.navbar-brand img {
+	margin-left: 0px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd !important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #e7e7e7 !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+	text-align: center;
+}
+/*.dropdown-menu {
+	background: rgba(0,0,0,0.5) !important;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+	color: #7cba00 !important;
+	background-color: rgba(0,0,0,0.5) !important;
+}*/
+/*.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0px !important;
+	z-index: 1000;
+	display: none;
+	float: right;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	 border: 1px solid #ccc; 
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}*/
+/*.dropdown-menu.show {
+	left: 0 !important;
+	min-width: 139px !important;
+}
+.dropdown-menu > li > a {
+	padding-top: 16px !important;
+	padding-bottom: 16px !important;
+}*/
+
+
+.dropdown-menu li {
+	width: 100% !important;
+	text-align: center;
+}
+.navbar-nav {
+	margin: 7.5px 2px !important;
+}
+.navbar-nav > li > a {
+	padding: 15px !important;
+}
+
+
+
+/* ==== Iphone Ratina ==== 
+@media only screen and (max-width:575px){
+
+}
+
+

@@ -1,321 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Treatment Template</title>
-	
-	<!--=== Bootstrap CSS ===-->    
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">	
-	
-	<!--=== fontawesome CSS ===-->  
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/slicknav.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/responsive.css">
-		
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-<!--======================== header-area start =========================-->    
-	<div class="header-top-area">
+        <title>This is title</title>
+        
+		<!--=== BOOTSTRAP CSS ===-->        
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<!--=== OWL-CAROUSEL CSS ===-->        
+        <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+		<!--=== ANIMATE CSS ===-->        
+        <link href="assets/css/animate.css" rel="stylesheet">
+		<!--=== FONT-AWESOME CSS ===-->        
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<!--=== SLICKNAV CSS ===-->        
+        <link href="assets/css/slicknav.min.css" rel="stylesheet">
+		<!--=== MANN STYLESHEET ===-->        
+        <link href="assets/css/style.css" rel="stylesheet">
+		<!--=== RESPONSIVE CSS ===-->        
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>   
+	<!--============ HEADER AREA START =============-->
+<!-- 	<div class="header-area">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-md-2 col-sm-2 col-12">
+			<div class="row header-area-top ">
+				<div class="col-lg-2 col-md-2">
 					<div class="header-logo">
-						<a href="index.html"><img src="assets/img/header-logo.png" alt=""></a>
+						<a href=""><img src="assets/img/logo.svg" alt=""></a>
 					</div>
-					<div class="template-responsive-wrap"></div>
 				</div>
-				<div class="col-lg-10 col-md-10">
-					<div class="mainmenu text-right">
-						<ul id="navigation">    
-							<li><a href="#" class="active">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="medicine.html">Regenerative Medicine</a></li>
-							<li><a href="physical-therapy.html">Physical Therapy & Supplements</a></li>
-							<li><a href="contact.html">Contact</a></li>
+				<div class="col-lg-10 col-md-10 text-right">
+					<nav class="mainmenu">
+						<ul id="navigation">
+							<li><a href="">About us </a></li>
+							<li class="expanded dropdown"><a class="active dropdown-toggle" data-toggle="dropdown" href="" aria-expanded="false">Products  </a>
+							<ul class="dropdown-menu">
+								<li><a href="/en/product/rich" data-drupal-link-system-path="node/7">RiCH</a></li>
+								<li><a href="/en/product/ole5" data-drupal-link-system-path="node/6">Ole5</a></li>
+								<li><a href="/en/product/akeed" data-drupal-link-system-path="node/62">Akeed</a></li>
+								<li><a href="/en/product/availo" data-drupal-link-system-path="node/7">Avalio</a></li>
+								<li><a href="/en/product/dots" data-drupal-link-system-path="node/7">Dots</a></li>
+							</ul>
+							</li>
+							<li><a href="">Our clients</a></li>
+							<li><a href="">Our employees</a></li>
+							<li><a href="">Contact us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+<!-- 	<div class="header-area">
+		<div class="container">
+			<div class="row header-area-top ">
+				<div class="col-lg-2 col-md-2">
+					<div class="header-logo">
+						<a href=""><img src="assets/img/logo.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-10 text-right">
+					<nav class="mainmenu">
+						<ul id="navigation">
+							<li><a href="">About us </a></li>
+							<li class="expanded dropdown"><a class="active dropdown-toggle" data-toggle="dropdown" href="" aria-expanded="false">Products  </a>
+							<ul class="dropdown-menu">
+								<li><a href="/en/product/rich" data-drupal-link-system-path="node/7">RiCH</a></li>
+								<li><a href="/en/product/ole5" data-drupal-link-system-path="node/6">Ole5</a></li>
+								<li><a href="/en/product/akeed" data-drupal-link-system-path="node/62">Akeed</a></li>
+								<li><a href="/en/product/availo" data-drupal-link-system-path="node/7">Avalio</a></li>
+								<li><a href="/en/product/dots" data-drupal-link-system-path="node/7">Dots</a></li>
+							</ul>
+							</li>
+							<li><a href="">Our clients</a></li>
+							<li><a href="">Our employees</a></li>
+							<li><a href="">Contact us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<nav class="navbar navbar-inverse" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="top-navbar-1">
+						<ul class="nav navbar-nav navbar-right man-menu">
+							<li><a href="#">About us</a></li>
+							<li class="dropdown expanded active"><a class="dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">Products
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a class="active" href="">link 1</a></li>
+								<li><a href="">link 1</a></li>
+								<li><a href="">link 1</a></li>
+								<li><a href="">link 1</a></li>
+							</ul>
+							<!-- <ul class="dropdown-menu">
+	                       		<li class="active"><a href="/en/product/rich"" class="is-active">RiCH</a></li>
+	                        	<li><a href="" >Ole5</a></li>
+	                        	<li><a href="" >Akeed</a></li>
+	                       		<li><a href="" >Availo</a></li>
+       					 	</ul> -->
+							</li>
+							<li><a href="#">Our clients</a></li>
+							<li><a href="#">Contact us</a></li>
 						</ul>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
+			</nav>
 
-	<div class="header-bottom-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-6 col-lg-3 col-md-6 col-sm-6">
-					<div class="single-contact-box">
-						<div class="single-contact-box-tablecell">
-							<div class="contact-box-icon">
-							<div class="contact-box-tablecell">
-								<i class="fa fa-phone"></i>
-							</div>
-						</div>
-						<p>11807 Northfall Lane, Suite 901 
-						Alpharetta, GA 30009</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-6 col-lg-3 col-md-6 col-sm-6">
-					<div class="single-contact-box">
-						<div class="single-contact-box-tablecell">
-				 			<div class="contact-box-icon">
-								<div class="contact-box-tablecell">
-									<i class="fa fa-phone"></i>
-								</div>
-							</div>
-							<p>Phone: 678-240-0049 <br/>
-							Fax: 000-000-0000</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-6 col-lg-3 col-md-6 col-sm-6">
-					<div class="single-contact-box">
-						<div class="single-contact-box-tablecell">
-							<div class="contact-box-icon">
-							<div class="contact-box-tablecell">
-								<i class="fa fa-phone"></i>
-							</div>
-						</div>
-						<p>Email: <br/>
-						_______________ @gmail.com 9</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-6 col-lg-3 col-md-6 col-sm-6">
-					<div class="single-contact-box">
-						<div class="single-contact-box-tablecell">
-							<div class="contact-box-icon">
-							<div class="contact-box-tablecell">
-								<i class="fa fa-phone"></i>
-							</div>
-						</div>
-						<p>Hours <br/>
-						Monday-Friday 0:00 AM - 0:00 PM</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    </div>	
-<!--======================== heasder-area end ========================-->  	
-<!--======================== slider-area start ========================-->  
-	<div class="homepage-slder-area slider-bg">
-		<div class="slider-inner-tablecell">
+	<!--header start here -->
+
+<!--header end here-->
+	<!--============ HEADER AREA END =============-->
+	<!--============ SLIDER AREA START =============-->
+	<div class="homepage-area">
+		<div class="single-slider-item">
 			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-8">
-						<div class="slider-text">
-							<h1>Lorem Ipsum Dolor</h1>
-							<h3>Falli tamquam vim ea, vel verterem delicata definitiones te.</h3>
-							<a href="" class="slider-btn"><i class="fa fa-calendar-alt"></i>Schedule an Appointment Today</a>
+				<div class="row">
+					<div class="col-lg-12 my-auto">
+						<div class="slide-text">
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="slider-cta">
-					<span></span>
-					678-240-0049
-			</div>
-		</div>
-	</div>	
-<!--======================== slider-area end ========================-->  	 
-<!--======================== about-area start ========================-->  	
-	<div class="about-area">
-		<div class="about-area-bg"></div>
-		<div class="right-bottom-bg"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 col-md-6 col-sm-6 col-12">
-					<div class="about-text">
-						<h2>About Us</h2>
-						<p>Lorem ipsum dolor sit amet, ceteros dignissim sadipscing pro cu, ex liber facilisis has, in qui cetero oportere quaerendum. Ad aperiam evertitur ullamcorper quo, ut vix phaedrum democritum disputationi, dictas suscipit accommodare ex est. Ad est justo quaerendum, homero recteque intellegebat vel ad. Eu pro soleat mollis, mel ex noster omnium eripuit. Idque dolorem intellegam ad vim, movet commune suscipit vix ut. Ut docendi elaboraret mel. At duo sale dicam fastidii, quo ex nostrud graecis expeten</p>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
-<!--======================== about-area end ========================-->  	
-<!--========================  treatment-collapse area start ========================-->  
-	<div class="teeatment-collapse-area">
-	<div class="collpase-bg"></div>
-   		<div class="container">
-   			<div class="row">
-   				<div class="col-lg-6 offset-lg-6 col-md-12 col-sm-12 col-12">
-   					<div class="treatment-accordian-text">
-   						<h2>Regenerative Medicine</h2>
-   						<p>Lorem ipsum dolor sit amet, ceteros dignissim sadipscing pro cu, ex liber facilisis has, in qui cetero oportere quaerendum. Ad aperiam evertitur ullamcorper quo, ut vix phaedrum democritum disputationi, dictas suscipit accommodare ex est. </p>
-   						 
-   						 <div class="collapse-section">
-   						 	<div id="accordion">
-								<div class="card">
-									<div class="card-header" id="headingOne">
-										<h5 class="mb-0">
-											<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-											<i class="fa" aria-hidden="true"></i>
-											Ad aperiam evertitur ullamcorper quo, ut vix phaedrum? #2
-											</button>
-										</h5>
-									</div>
-									<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-										<div class="card-body">
-										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-										</div>
-									</div>
-								</div>
-								<div class="card">
-									<div class="card-header" id="headingTwo">
-										<h5 class="mb-0">
-											<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-											<i class="fa" aria-hidden="true"></i>
-											Ad aperiam evertitur ullamcorper quo, ut vix phaedrum? #2
-											</button>
-										</h5>
-									</div>
-									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-										<div class="card-body">
-										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-										</div>
-									</div>
-								</div>
-								<div class="card">
-									<div class="card-header" id="headingThree">
-										<h5 class="mb-0">
-											<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-											<i class="fa" aria-hidden="true"></i>
-											Ad aperiam evertitur ullamcorper quo, ut vix phaedrum? #3
-											</button>
-										</h5>
-									</div>
-									<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-										<div class="card-body">
-										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
-										</div>
-									</div>
-								</div>
-								<div class="card">
-									<div class="card-header" id="headingFour">
-										<h5 class="mb-0">
-											<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-											<i class="fa" aria-hidden="true"></i>
-											Ad aperiam evertitur ullamcorper quo, ut vix phaedrum? #3
-											</button>
-										</h5>
-									</div>
-									<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-										<div class="card-body">
-										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
-										</div>
-									</div>
-								</div>
-							</div>
-  						 	<a href="" class="boxed-btn">Learn More</a>
-   						 </div>
-   					</div>
-   				</div>
-   			</div>
-   		</div>
-    </div>
-<!--========================  treatment-collapse area end ========================-->  	
-<!--========================  cta area start ========================--> 
-	<div class="cta-area cta-area-bg">
+	<!--============ SLIDER AREA END =============-->
+	<!--============ PRODUCT DETAILS AREA START =============-->
+	<div class="product-details">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-9 col-md-9 col-sm-6 col-6">
-					<div class="cta-area-text">
-						<p>Lorem ipsum dolor sit amet, ceteros dignissim sadipscing pro liber amet</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
-					<a href="" class="cta-area-boxed-btn"><i class="far fa-calendar-alt"></i>Schedule an Appointment Today</a>
-				</div>
-			</div>
-		</div>
-	</div> 	
-<!--========================  cta area end ========================-->  	
-<!--========================  treatment-details-area start ========================-->  
-	<div class="treatment-area">
-	<div class="treatment-area-bg"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 col-md-8 col-sm-12">
-					<div class="treatment-details-area">
-						<h2>Physical Therapy & Supplements</h2>
-						<p>Lorem ipsum dolor sit amet, ceteros dignissim sadipscing pro cu, ex liber facilisis has, in qui cetero oportere quaerendum. Ad aperiam evertitur ullamcorper quo, ut vix phaedrum democritum disputationi, dictas suscipit accommodare ex est. Ad est justo quaerendum, homero recteque intellegebat vel ad. Eu pro soleat mollis, mel ex noster omnium eripuit. Idque dolorem intellegam ad vim, movet commune suscipit vix ut. Ut docendi elaboraret mel. At duo sale dicam fastidii, quo ex nostrud graecis expeten
-						</p>
-						
-						<p>
-						Falli tamquam vim ea, vel verterem delicata definitiones te. Choro verterem usu ea. Cu saperet voluptatum incorrupte eam, est aliquam epicurei cu. Atqui torquatos moderatius his ne, nam an alia similique. Sed nulla semper hendrerit ne, vel deleniti phaedrum te, qui iisque facilisi eu. Autem homero </p>
-						<a href="" class="boxed-btn">Learn More</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<!--========================  treatment-details-area end ========================-->  	
-<!--========================  footer-area start ========================-->  
-	<div class="footer-area-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-4">
-					<h2 class="footer-heading">Contact Us</h2>
-					<p>Somers Chiropractic & Wellness LLC</p>
-					<p>678-240-0049</p>
-					<p>11807 Northfall Lane, Suite 901 </p>
-					<p>SAlpharetta, GA 30009</p>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<h2 class="footer-heading">Navigation</h2>
-					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">About</a></li>
-						<li><a href="">Regenerative Medicine</a></li>
-						<li><a href="">Physical Therapy & Supplements</a></li>
-						<li><a href="">Contact</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<h2 class="footer-heading">Get in Touch</h2>
-					<div class="site-form-area">
-						<form action="">
-							<input type="text" name="Name" placeholder="Full Name" class="my_style">
-							<input type="text" name="Pone" placeholder="Phone Number" class="my_style">
-							<input type="email" name="Email" placeholder="Email Address" class="my_style">
-							<textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-							
-							<button type="submit" value="submit" class="submit-btn" >Request Contact</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<div class="footer-bottom-area">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<p> &amp; Copyright 2018 Somers Chiropractic &amp; Welness LLC  Athena Regenerative Centers of Holistic Health | All rights reserved</p>
-				</div>
-			</div>
-		</div>
-	</div>
-<!--========================  footer-area end ========================-->  	
-	<!--=== Bootstrap JS===--> 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	
-		
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.slicknav.min.js"></script>
-	<script src="assets/js/main.js"></script>
-	
-</body>
-</html>
-			    
+				<div class="col-lg-6 col-md-12">
+					<div class="product-text">
+						<p>Security points appear on documents or images linked to a set of variables for the document, image, user, and system</p>
 
-  
+						<p>Globally the Security Dots focus has traditionally been automotive and motorcycles for both OE and aftermarket. Some of our key customers in global markets include Lexus, BMW, VW, Subaru, Beacon Industries Worldwide, Premier Dealer Services and many more</p>
+				
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============ PRODUCT DETAILS AREA END =============-->
+	<!--============ SINGLE PRODUCT DETAILS AREA START =============-->
+	<div class="product-bottoma">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title">
+						<h2>Why Dots</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row product-bottom-border">
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottom-text">
+						<h4>Protection of private and confidential documents.</h4>
+						<p>Then you can easily remove passwords to unprotect a document or workbook if read only is no longer required.</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottoom-bg product-bottom-bg-1"></div>
+				</div>
+			</div>
+			<div class="row product-bottom-border product-margin-top dfor-desktop">
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottoom-bg product-bottom-bg-2"></div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottom-text">
+						<h4>Rest API</h4>
+						<p>A RESTful API is a method of allowing communication between a web-based client and server that employs representational state transfer (REST) constraints </p>
+					</div>
+				</div>
+			</div>
+			<div class="row product-bottom-border product-margin-top dfor-mobile">
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottom-text">
+						<h4>Rest API</h4>
+						<p>A RESTful API is a method of allowing communication between a web-based client and server that employs representational state transfer (REST) constraints </p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottoom-bg product-bottom-bg-2"></div>
+				</div>
+			</div>
+			<div class="row product-bottom-border product-margin-top">
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottom-text">
+						<h4>User tracking and source document</h4>
+						<p>When setting up your Mixpanel implementation, one issue of particular interest is tracking users by their original source of traffic.</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottoom-bg product-bottom-bg-3"></div>
+				</div>
+			</div>
+			<div class="row product-bottom-border product-margin-top dfor-desktop">
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottoom-bg product-bottom-bg-4"></div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottom-text">
+						<h4>Knowledge of the user leaker document details</h4>
+						<p>The man of knowledge must be able not only to love his enemies but also to hate his friends. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row product-bottom-border product-margin-top dfor-mobile">
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottom-text">
+						<h4>Knowledge of the user leaker document details</h4>
+						<p>The man of knowledge must be able not only to love his enemies but also to hate his friends. </p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="product-bottoom-bg product-bottom-bg-4"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============ SINGLE PRODUCT DETAILS AREA END =============-->
+	<!--============ FEATURE PRODUCT DETAILS AREA START =============-->
+	<div class="featured-product">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 text-center">
+					<div class="section-title">
+						<h2>Features</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="single-feature-item">
+						<span><img src="assets/img/imgs/lock-icon-1-1.png" alt=""></span>
+						<p>Secure your Documents </p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="single-feature-item">
+						<span><img src="assets/img/imgs/track.png" alt=""></span>
+						<p>Track the leak</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="single-feature-item">
+						<span><img src="assets/img/imgs/system.png" alt=""></span>
+						<p>Link with All Systems</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="single-feature-item">
+						<span><img src="assets/img/imgs/work.png" alt=""></span>
+						<p>Easy to work</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="single-feature-item">
+						<span><img src="assets/img/imgs/lightbulb-icon.png" alt=""></span>
+						<p>Unique Dots</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="single-feature-item">
+						<span><img src="assets/img/imgs/security-icon.png" alt=""></span>
+						<p>Security Solution</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 text-center">
+					<a href="" class="live-demo">Request a Demo</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============ FEATURE PRODUCT DETAILS AREA END =============-->
+	<!--============ FOOTER AREA START =============-->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h4 class="footer-title">Main navigation</h4>
+					<div class="footer-ul">
+						<ul>
+							<li><a href="">About us</a></li>
+							<li><a href="">Products</a></li>
+							<li><a href="">Our clients</a></li>
+							<li><a href="">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h4 class="footer-title">Main navigation</h4>
+					<div class="footer-ul">
+						<ul>
+							<li><a href="">Rich</a></li>
+							<li><a href="">Ole5</a></li>
+							<li><a href="">Akeed</a></li>
+							<li><a href="">Availo</a></li>
+							<li><a href="">SolutionDots</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h4 class="footer-title">Stay in touch</h4>
+					<div class="footer-text">
+						Phone: 966-112222679<br/>
+						Fax: 966-11-4991343<br/>
+						E-mail: info@t2.sa
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h4 class="footer-title">Our location</h4>
+					<p><iframe marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d292.0629017850509!2d46.651351811641625!3d24.8050226880541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f8c10b93f14c334!2sT2+-+Business+Research+and+Development!5e0!3m2!1sen!2sjo!4v1525767583312" width="100%" height="128" frameborder="0"></iframe></p>
+
+				</div>
+			</div>
+			<div class="row text-center footer-bottom">
+				<div class="col-lg-12">
+					<p class="copy-text">Copyright &copy; All rights reserved to T2 </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============ FOOTER AREA END =============-->
+	
+
+ 
+		<!--=== JQUERY ===-->        
+		<script src="assets/js/jquery.min.js"></script>
+		<!--=== BOOTSTRAP JS ===-->        		
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!--=== OWL CAROUSEL JS===-->        		
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!--=== WOW JS===-->        		
+		<script src="assets/js/wow.min.js"></script>
+		<!--=== SLICKNAV JS ===-->        		
+		<script src="assets/js/jquery.slicknav.min.js"></script>
+		<!--=== CUSTOM JS ===-->        		
+		<script src="assets/js/main.js"></script>
+
+    </body>
+</html>

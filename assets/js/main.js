@@ -1,17 +1,10 @@
-(function ($) {
-	"use strict";
-	
-    jQuery(document).ready(function($){	
-		
-//        slicknav js start
-			$("ul#navigation").slicknav({
-				prependTo: ".template-responsive-wrap"
-			});
-//        slicknav js end    	
-		
-		
-		
-		
-    });	
-	
-}(jQuery));	
+jQuery(document).ready(function($) {
+	$(".testimonial-content").owlCarousel({
+		items: 1,
+		nav: false, 
+		dots: true,
+		loop: true,
+		autoplay:true,
+		autoplaySpeed:1500
+	});
+});
