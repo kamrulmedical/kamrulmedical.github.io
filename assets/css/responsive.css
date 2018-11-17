@@ -61,8 +61,12 @@
 .footer-area {
 	padding-top: 0px;
 }
-
-
+.header_area {
+	margin-top: 0px;
+}
+.navbar {
+	margin-top: 25px !important;
+}
 
 }
 
@@ -107,88 +111,23 @@
 .product-details {
 	padding-bottom: 0px;
 }
-/*.header {
-	position: relative !important;
-	background: #fff !important;
-	margin: 0px !important;;
-	padding: 0px !important;
+.header_area {
+	position: relative;
 }
-.navbar-brand > img {
-	display: inline-block !important;
-	margin-left: -78px;
-}*/
-.navbar {
-	position: relative !important;
-	margin-top: 0px;
-}
-.navbar-inverse .navbar-toggle {
-	border-color: #ddd !important;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-	background-color: #888 !important;
-}
-.navbar-brand img {
-	margin-left: 0px;
-}
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-	background-color: #ddd !important;
-}
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #e7e7e7 !important;
-}
-.navbar-inverse .navbar-nav > li > a {
-	text-align: center;
-}
-/*.dropdown-menu {
-	background: rgba(0,0,0,0.5) !important;
-}
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
-	color: #7cba00 !important;
-	background-color: rgba(0,0,0,0.5) !important;
-}*/
-/*.dropdown-menu {
-	position: absolute;
-	top: 100%;
-	left: 0px !important;
-	z-index: 1000;
-	display: none;
-	float: right;
-	min-width: 160px;
-	padding: 5px 0;
-	margin: 2px 0 0;
-	font-size: 14px;
-	text-align: left;
-	list-style: none;
-	background-color: #fff;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	 border: 1px solid #ccc; 
-	border: 1px solid rgba(0,0,0,.15);
-	border-radius: 4px;
-	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-	box-shadow: 0 6px 12px rgba(0,0,0,.175);
-}*/
-/*.dropdown-menu.show {
-	left: 0 !important;
-	min-width: 139px !important;
-}
-.dropdown-menu > li > a {
-	padding-top: 16px !important;
-	padding-bottom: 16px !important;
-}*/
-
-
-.dropdown-menu li {
-	width: 100% !important;
-	text-align: center;
+.collapse.in {
+	background: #fff;
 }
 .navbar-nav {
-	margin: 7.5px 2px !important;
+	width: 100%;
+	text-align: center;
 }
-.navbar-nav > li > a {
-	padding: 15px !important;
+.navbar {
+	margin-top: 0px !important;
 }
-
+.navbar-collapse {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
 
 
 /* ==== Iphone Ratina ==== 
