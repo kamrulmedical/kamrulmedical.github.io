@@ -1,10 +1,13 @@
 jQuery(document).ready(function($) {
-	$(".testimonial-content").owlCarousel({
-		items: 1,
-		nav: false, 
-		dots: true,
-		loop: true,
-		autoplay:true,
-		autoplaySpeed:1500
+	$(".slide-list").slick({
+		prevArrow: "<i class='fa fa-angle-left'></i>",
+		nextArrow: "<i class='fa fa-angle-right'></i>",
 	});
+
+	$(".course-carousel").slick({
+		slidesToShow: 3,
+		prevArrow: "<i class='fa fa-angle-left'></i>",
+		nextArrow: "<i class='fa fa-angle-right'></i>",
+	});
+
 });
