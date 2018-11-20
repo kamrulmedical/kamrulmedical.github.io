@@ -245,3 +245,47 @@ a{
 .footer-section a img {
 	margin-right: 5px;
 }
+.slide-bg-1{background-image: url(../img/slide.jpg);}
+.single-slide {
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	position: relative;
+	z-index: 1;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.slider-text {
+	background: transparent url(../img/transparent_bg.png) repeat scroll 0 0 !important;
+	position: absolute;
+	bottom: 0;
+}
+.slider-inner-text {
+	padding-left: 10px;
+}
+.slider-inner-text h4 {
+	color: #fff;
+	font-size: 100%;
+	margin-bottom: 3px;
+}
+.slider-inner-text h2 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 1px;
+	padding-top: 10px;
+}
+.read-more {
+	float: right;
+	color: #fff;
+}
+.read-more{
+	background: url(../img/readmore.png) no-repeat;
+	color: #fff;
+	font-size: 14px;
+	font-family: times New Roman;
+	margin: 0;
+	padding: 4px 0 4px 19px;
+	text-decoration: none !important;
+	width: 100px;
+}

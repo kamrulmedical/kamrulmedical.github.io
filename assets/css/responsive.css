@@ -60,13 +60,37 @@ body {
 	margin-bottom: 0px;
 }
 .right-content-text h3 {
-	font-size: 20px;
-	text-align: center;
+	font-size: 1.015em;
+	text-align: left;
+	background: #174E5E;
+	color: #fff;
+	padding: 4px 14px;
+}
+.single-service-item {
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	min-height: 200px;
+	padding: 10px;
+}
+.single-service-item span a {
+	color: #999;
 }
 .single-service-item h3 {
-	font-size: 18px;
-	line-height: 15px;
+	font-size: 15px;
+	line-height: 14px;
 	margin-top: 10px;
+}
+.single-service-item span {
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+}
+.content-area {
+	background: #fff;
+	padding: 5px;
+}
+.lefty-title {
+	background-color: #174E5E;
 }
 .copyright-area {
 	text-align: center;
@@ -77,6 +101,7 @@ body {
 }
 .copyright-area h4 {
 	font-size: 15px;
+	color: #174E5E;
 }
 .copyright-area h6 {
 	font-size: 13px;
